@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 const api = axios.create({
-  baseURL: 'https://ranger-checked-expects-standard.trycloudflare.com/api',
+  baseURL: 'https://referring-camping-canyon-far.trycloudflare.com/api',
 });
 
 api.interceptors.request.use((config) => {
