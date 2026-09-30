@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 const api = axios.create({
-  baseURL: 'https://sort-arbitrary-lamp-states.trycloudflare.com/api'
+  baseURL: 'https://ranger-checked-expects-standard.trycloudflare.com/api',
 });
 
 api.interceptors.request.use((config) => {
