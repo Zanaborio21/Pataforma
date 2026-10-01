@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 const api = axios.create({
-  baseURL: 'https://referring-camping-canyon-far.trycloudflare.com/api',
+  baseURL: 'https://fruit-safari-until-argued.trycloudflare.com/api',
 });
 
 api.interceptors.request.use((config) => {
