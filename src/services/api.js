@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://statements-bent-mapping-wide.trycloudflare.com/api',
 });
 
 api.interceptors.request.use((config) => {
