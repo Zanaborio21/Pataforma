@@ -48,6 +48,7 @@ export default function Layout() {
         <nav style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           <Link to="/" style={{ color: '#cbd5e0', textDecoration: 'none', fontWeight: '500' }}>Panel Principal</Link>
           <Link to="/pacientes" style={{ color: '#cbd5e0', textDecoration: 'none', fontWeight: '500' }}>Pacientes y Tutores</Link>
+          <Link to="/agenda" style={{ color: '#cbd5e0', textDecoration: 'none', fontWeight: '500' }}>Agenda Médica</Link>
           {user?.roles?.includes('Administrador') && (
             <Link to="/admin" style={{ color: '#cbd5e0', textDecoration: 'none', fontWeight: '500' }}>Usuarios (Administrador)</Link>
           )}
